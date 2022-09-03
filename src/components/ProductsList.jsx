@@ -19,6 +19,7 @@ const ProductsList = () => {
   const dispatch = useDispatch()
 
   const fetchpeoducts =useCallback( async() =>{
+    dispatch(Lood(true))
   const response = await axios.get(Single_Category === "AllProducts" ? Url : `${Url2}${Single_Category}`).catch( (err) =>console.log("Error" , err))
   const data = response.data
     dispatch(SET_Products( Single_Category,data))

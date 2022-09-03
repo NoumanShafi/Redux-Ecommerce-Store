@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductsDetails from '../components/ProductDetails/ProductsDetails'
 
-const Details_products = () => {
+const Detailsproducts = () => {
   return (
     <div>
         <ProductsDetails/>
@@ -9,4 +9,4 @@ const Details_products = () => {
   )
 }
 
-export default Details_products
+export default Detailsproducts

@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container h1{
+    margin-bottom: 1rem;
+}
+.container p{
+    text-align: start;
+}

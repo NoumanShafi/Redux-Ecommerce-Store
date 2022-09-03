@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+   color: #fff;
+   background-color: rgb(5, 129, 178);
+height: 85vh;
+padding: 3rem;
+}
+.header{
+    width :80%;
+   align-self: center;
+   font-family: 'Courier New', Courier, monospace;
+
+
+}
+.header p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.link{
+    text-decoration: none;
+    background-color: rgb(254, 32, 69);
+    color: #fff;
+    padding:10px 1rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    
+}
+.link:hover{
+    border-color:rgb(254, 32, 69);
+    background-color: transparent;
+
+}
+ img{
+    width: 100%;
+object-fit: cover;
+
+ }
